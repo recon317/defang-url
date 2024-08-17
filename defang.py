@@ -1,4 +1,5 @@
 from argparse import ArgumentParser, Namespace
+
 parser = ArgumentParser()
 parser.add_argument('url', help='Input the URL to defang', type=str)
 args: Namespace = parser.parse_args()
